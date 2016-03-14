@@ -1,6 +1,7 @@
 # sakuio-blog-160314
 
-先に node と npm をインストールしておく。
+次のブログの解説用リポジトリです。  
+https://saku.io/modern-front-development-with-webpack/
 
 
 # How to build
