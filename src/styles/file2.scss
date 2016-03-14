@@ -1,0 +1,10 @@
+$my-color: brown;
+.commentBox {
+  color: $my-color;
+  
+  &:hover {
+    text-decoration: none;
+  }
+}
+ 
+@import './file3.scss';

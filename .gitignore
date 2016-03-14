@@ -1,0 +1,23 @@
+# Keep empty file
+!empty
+
+# Build artifacts
+dist/scripts/*
+dist/styles/*
+
+# Node
+node_modules/
+typings/
+
+# Filesystem dust / Others
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+.*.sw[a-p]
+*.dat
+*.tmp
+ehthumbs.db
+Thumbs.db
