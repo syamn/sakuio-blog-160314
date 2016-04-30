@@ -1,16 +1,16 @@
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var dist_dir = __dirname + '/dist'; 
  
 module.exports = [{
-  entry: "./src/scripts/index.tsx",
+  entry: './src/scripts/index.tsx',
   output: { 
     path: dist_dir + '/scripts',
     publicPath: '/scripts/',
-    filename: "app.js"
+    filename: 'app.js'
   },
   module: {
     loaders: [
-      { test: /\.tsx?$/, loader: "ts-loader" }
+      { test: /\.tsx?$/, loader: 'ts-loader' }
     ]
   }
 }, {
